@@ -1,0 +1,82 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-02-23 16:09:30
+ * @LastEditTime: 2021-02-23 21:01:38
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \测试\one.html
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh" content="1000000;url=https://www.acfun.cn/bangumi/aa5024874?acfr=sem_pc%5F%E7%95%AA%E5%89%A7%5F%E5%86%85%E5%AE%B9%E9%A1%B5%5F%E7%91%9E%E5%85%8B%E5%92%8C%E8%8E%AB%E8%92%82_%E7%91%9E%E5%85%8B%E5%92%8C%E8%8E%AB%E8%92%82_%E7%91%9E%E5%85%8B%E5%92%8C%E8%8E%AB%E8%92%82&bd_vid=11176903372653879699"/>
+        <title>实验品</title>
+        <link rel="stylesheet" type="text/css" href="../css/one.css">
+        <script type="text/javascript" src="../javascript/one.js"></script> 
+    </head>
+    <body>
+        <h1>TEST_First Time</h1>
+        <hr/>
+        <a href="two.html" target="_blank">turn to web2</a><br/>
+        <a href="test/three.html">turn to web3</a>
+        <div>
+            <a href="#RM">Rick & Morty</a><br/>
+            <a href="#AR">About Rick</a>
+        </div>
+        <div id="RM"> 
+            <h2>Rick & Morty</h2>   <!--瑞克和莫蒂-->
+            <a href="https://baike.baidu.com/item/%E7%91%9E%E5%85%8B%E5%92%8C%E8%8E%AB%E8%92%82/22339526" target="_blank">瑞克和莫蒂-百度百科</a>
+            <br/>
+            <img src="../images/nino.png" alt="Nino" title="Nino">
+            <p>Wubba Lubba dub dub<br/>天才终将陨落</p>
+            <p>Protagonist List:</p>
+            <ol type="I">
+                <li>Rick</li>
+                <li>Morty</li>
+                <li>Summer</li>
+                <li>Beth</li>
+                <li>Jerry</li>
+            </ol>
+            <p>Just supporting actors:</p>
+            <ul type="disc">
+                <li>鸟人</li>
+                <li>便便洞先生</li>
+                <li>有求必应先生</li>
+                <li>屎瓜奇</li>
+            </ul>
+        </div>
+        <div id="AR">
+            <h2>About Rick</h2>     <!--关于瑞克-->
+            <hr/>
+            <p id="result">Because genius is born lonely</p>
+            <p><em>Scientifically, traditions are an idiot thing.</em></p>
+            <a href="javascript:tip()">Click me</a>
+        </div>
+        <div>
+            <table>
+                <caption>表格标题</caption>
+                <thead>    <!--表头-->
+                    <tr>
+                        <th>表头1</th>
+                        <th>表头2</th>
+                    </tr>
+                </thead>                
+                <tbody>     <!--表身-->
+                    <tr>
+                        <td rowspan="2">表行格A</td>
+                        <td>表行格A.1</td>
+                    </tr>
+                    <tr>
+                        <td>表行格A.2</td>
+                    </tr>
+                </tbody>
+                <tfoot>      <!--表脚-->
+                    <tr>
+                        <td colspan="2">标准格B</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </body>
+</html>
