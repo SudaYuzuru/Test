@@ -1,0 +1,67 @@
+html,body{height:100%;background-color: rgb(184, 202, 219);}
+a:link{color:rgb(238, 236, 236);}
+a:visited{color:darkorange;}
+a:hover{color:darksalmon;}
+a:active{color:darkslateblue;}
+#RM
+{
+    background-image: url(../images/cloud.jpg);
+    width:100%;
+    height:100%;
+    background-size: 100%;
+}
+h1 
+{
+    color:rgba(128, 149, 214, 0.918);
+    font-family:'Times New Roman';
+    text-align:center;
+    font-size:45px;
+    line-height:20px;
+}  /*大标题字体字形*/
+h2 
+{
+    color:rgb(214, 224, 243);
+    font-family:'Georgia';
+    font-size:30px;
+}
+img
+{
+    width:200px;
+    height:200px;
+    border:10px solid rgba(187, 182, 167, 0.966);
+    float:right;
+}
+h1:hover
+{
+   color:rgb(255, 158, 174)
+}
+#RM {color:rgb(255, 255, 255);}
+ul{list-style-image:url(../images/twinkle.png);}
+#RM ul,#RM ol,#RM p
+{
+    font-family:'Verdana','FangSong';    
+    font-style:italic;
+    text-decoration:underline;
+    font-size:20px;
+}
+#RM p
+{
+    font-weight:bold;
+    font-size:15px;
+    text-indent:30px;
+}
+#AR #result 
+{
+    color:olivedrab;
+    font-size:25px;
+    font-weight:bolder;
+    text-transform:capitalize;
+}
+#AR p
+{
+    text-transform:uppercase;
+    line-height:10px;
+}
+.nothing{color:goldenrod;}
+tr,td,th{border:2px solid rgba(176, 216, 102, 0.774);}
+table{border-collapse:collapse;background-color: rgba(189, 226, 189, 0.842);}
