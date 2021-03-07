@@ -1,0 +1,122 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-03-06 19:46:04
+ * @LastEditTime: 2021-03-07 00:46:36
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \伪百度\html\伪百度.html
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="../css/伪百度.css">
+        <script src="../javascript/伪百度.js"></script>
+        <title>百度一下，你就知道</title>
+    </head>
+    <body>
+        <div class="nav">
+            <span id="nav-b">
+                <a href="http://news.baidu.com/" target="_blank">新闻</a>
+                <a href="https://www.hao123.com/" target="_blank">hao123</a>
+                <a href="https://map.baidu.com/" target="_blank">地图</a>
+                <a href="https://live.baidu.com/" target="_blank">直播</a>
+                <a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank">视频</a>
+                <a href="http://tieba.baidu.com/f/user/passport?jumpUrl=http://tieba.baidu.com/" target="_blank">贴吧</a>
+                <a href="https://xueshu.baidu.com/" target="_blank">学术</a>
+            </span>
+        </div>
+        <div class="nav-a">
+            <span>
+                <a href="https://xueshu.baidu.com/more/" target="_blank">更多</a>
+            </span>
+            <div class="nav-a-content">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><a href="https://pan.baidu.com/" target="_blank"><img src="../image/wangpan.png" style="width: 40px;height:40px;"/></a></td>
+                            <td><a href="https://zhidao.baidu.com/" target="_blank"><img src="../image/zhidao.png" style="width: 40px;height:40px;"/></a></td>
+                            <td><a href="https://baike.baidu.com/" target="_blank"><img src="../image/baike.png" style="width: 40px;height:40px;"/></a></td>
+                            <td><a href="https://image.baidu.com/" target="_blank"><img src="../image/tupian.png" style="width: 40px;height:40px;"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://pan.baidu.com/" target="_blank">网盘</a></td>
+                            <td><a href="https://zhidao.baidu.com/" target="_blank">知道</a></td>
+                            <td><a href="https://baike.baidu.com/" target="_blank">百科</a></td>
+                            <td><a href="https://image.baidu.com/" target="_blank">图片</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://baobao.baidu.com/" target="_blank"><img src="../image/baobaozhidao.png" style="width: 40px;height:40px;"/></a></td>
+                            <td><a href="https://wenku.baidu.com/" target="_blank"><img src="../image/wenku.png" style="width: 40px;height:40px;"/></a></td>
+                            <td><a href="https://jingyan.baidu.com/" target="_blank"><img src="../image/jingyan.png" style="width: 40px;height:40px;"/></a></td>
+                            <td><a href="https://music.taihe.com/" target="_blank"><img src="../image/yinyue.png" style="width: 40px;height:40px;"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://baobao.baidu.com/" target="_blank">宝宝知道</a></td>
+                            <td><a href="https://wenku.baidu.com/" target="_blank">文库</a></td>
+                            <td><a href="https://jingyan.baidu.com/" target="_blank">经验</a></td>
+                            <td><a href="https://music.taihe.com/" target="_blank">音乐</a></td>
+                        </tr>
+                        <tr><td colspan="4"><a href="https://www.baidu.com/more/" target="_blank" class="express">查看全部百度产品></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="rightup"> 
+            <div id="sign">
+                <form>
+                    <label><input type="button" style="width:48px;height:24px;border:0;border-radius:5px;background-color: rgb(82, 118, 238);" value="登录"></label>
+                </form>
+            </div>
+        </div>
+        <div class="dropdown" >
+            <span>设置</span>
+            <div class="dropdown-content">
+                <a href="">搜索设置</a>
+                <a href="">高级搜索</a>
+                <a href="">关闭预测</a>
+                <a href="">隐私设置</a>
+                <a href="">开启热榜</a>
+            </div>
+        </div>
+        <div id="real-time">
+            <a href="https://www.baidu.com/s?wd=2021%e5%b9%b4%e5%85%a8%e5%9b%bd%e4%b8%a4%e4%bc%9a&sa=ire_dl_gh_logo_texing&rsv_dl=igh_logo_pcs" target="_blank">
+                <img src="../image/PCpad_012830ebaa7e4379ce9a9ed1b71f7507.png" title="上百度，看2021年全国两会"/>
+            </a>
+        </div>
+        <div class="main">
+            <form>
+                <label><input class="research" type="text"></label>
+                <button class="run" type="submit">百度一下</button>
+            </form>
+        </div>
+        <div class="picture">
+            <span><img id="camera" src="../image/xiangji.png" onmouseover="this.src='../image/xiangji-hover.png';" onmouseout="this.src='../image/xiangji.png';" width=20.8px height=20.5px/></span>
+            <div class="tip">
+                <p>按图片搜索</p>
+            </div>
+        </div>
+        <div class="side">
+            <span><img id="qrcode" src="../image/qrcode..png" onmouseover="this.src='../image/qrcode-hover.png';" onmouseout="this.src='../image/qrcode..png';" width=24px height=24px style="border-radius: 50%;background-color: rgb(250, 250, 250);padding:8px"/></span>
+            <div class="side-content">
+                <p id="p1"><img src="../image/saoma.png" style="width:21px;height:21px;margin:-5px 5px"/>百度APP扫码登录 <img src="../image/qrcode.png" style="width: 75px;height: 75px;float: right;margin:0 3px"/></p>
+                <p id="p2" style="margin:-5px -10px">有事搜一搜 没事看一看</p>
+            </div>
+        </div>
+        <div class="footer">
+            <span id="about">
+                <a href="https://www.baidu.com/cache/setindex/index.html" target="_blank">设为首页</a>
+                <a href="https://home.baidu.com/" target="_blank">关于百度</a>
+                <a href="https://ir.baidu.com/" target="_blank">About Baidu</a>
+                <a href="https://isite.baidu.com/site/e.baidu.com/d38e8023-2131-4904-adf7-a8d1108f51ef?refer=888" target="_blank">百度营销</a>
+                <a href="https://www.baidu.com/duty/" target="_blank">使用百度前必读</a>
+                <a href="https://passport.baidu.com/v2/?login&tpl=service_feedback&u=http%3A%2F%2Fhelp.baidu.com%2Fnewadd%3Fprod_id%3D1%26category%3D4" target="_blank">意见反馈</a>
+                <a href="https://help.baidu.com/" target="_blank">帮助中心</a>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank">京公网安备11000002000001号</a>
+                <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP证030173号</a>
+                &nbsp;&nbsp;©2021&nbsp;Baidu&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;(京)-经营性-2017-0020
+            </span>
+        </div>
+    </body>
+</html>
