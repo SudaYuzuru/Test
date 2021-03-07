@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: white;
+}
+.nav{
+    margin-top: 18px;
+    margin-left: 10px;
+}
+#nav-b a{
+    color: black;
+    font-family: "Arial","Microsoft Yahei";
+    font-size: 13px;
+    text-align: left;
+    padding: 5px 13.2px;
+    text-decoration: none;
+}
+#nav-b a:hover{
+    color: rgb(1, 38, 250);
+}
+#rightup div{
+    margin: 13px;
+}
+#set{
+    float: right;
+}
+#sign{
+    float: right;
+}
+.footer{
+    color: rgb(129, 126, 126, 0.575);
+    font-family: "Arial","Microsoft Yahei";
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 12px;
+    left: 113px;
+}
+
+.footer a{
+    color: rgba(129, 126, 126, 0.575);
+    font-family: "Arial","Microsoft Yahei";
+    font-size: 11px;
+    word-spacing: -0.5px;
+    padding: 0 7.5px;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: black;
+}
+#real-time img{
+    padding: 5px;
+    height: 129px;
+    width: 270px;
+    position: fixed;
+    top: 117px;
+    left: 491.5px;
+    text-align: center;
+}
+.side #qrcode:hover{
+    box-shadow: 0 3px 3px 1px rgb(223, 221, 221);
+}
+.side #p1{
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    margin: 5px;
+}
+.side #p2{
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color:rgb(129, 126, 126, 0.575)
+}
+.side span{
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 62px;
+    right: 43px;
+    border-radius:50%
+}
+.side{
+    position: relative;
+    display: inline-block;
+}
+.side-content{
+    display: none;
+    position: fixed;
+    right: 100px;
+    bottom: 65px;
+    background-color: #ffffff;
+    min-width: 305px;
+    height: 95px;
+    box-shadow: 0px 5px 8px 2px rgb(223,221,221);
+    border-radius: 10px;
+    padding: 8px 0;
+
+}
+.side-content p{
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.side:hover .side-content{
+    display: block;
+}
+.research{
+    width: 550px;
+    height: 40px;
+    border: 2px solid  rgba(172, 167, 167, 0.575);
+    border-radius:10px 0 0 10px;
+    padding:0 16px;
+    font-size: 17px;
+}
+.research:focus{
+    outline: none;
+    border: 2px solid rgb(78, 108, 240);
+}
+.dropdown span{
+    color:black;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Arial","Microsoft Yahei";
+    font-size: 13px;
+    text-align: right;
+    position:fixed;
+    top: 1.5px;
+    right: 100.5px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background-color: #ffffff;
+    min-width: 80px;
+    box-shadow: 0px 5px 8px 2px rgb(223,221,221);
+    border-radius: 10px;
+    position: fixed;
+    top: 45px;
+    right: 100px;
+    padding: 8px 0;
+    /*margin: 5px -5px;
+    position: absolute;*/
+}
+.dropdown-content a {
+    color: black;
+    padding: 6px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown-content a:hover {
+    color: rgb(82, 118, 238);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover span{
+    color:rgb(82, 118, 238);
+}
+#sign input{
+    font-size: 13px;
+    font-family: "Microsoft Yahei";
+    color: white;
+    text-align: center;
+    position:fixed;
+    top: 18px;
+    right: 40px;
+}
+.picture span{
+    position: fixed;
+    top: 282px;
+    left: 812.5px;
+}
+.picture{
+    position: relative;
+    display: inline-block;
+}
+.tip{
+    display: none;
+    background-color: #ffffff;
+    min-width: 50px;
+    box-shadow: 0px 3px 6px 2px rgb(238, 236, 236);
+    border-radius: 10px;
+    position: fixed;
+    top: 320px;
+    left: 750px;
+    padding: 8px 0;
+}
+.tip p {
+    color: rgb(102, 101, 101);
+    padding: 0px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.tip a:hover {
+    color: rgb(82, 118, 238);
+}
+.picture:hover .tip{
+    display: block;
+}
+.main{
+    position: fixed;
+    top: 270px;
+    left: 304.5px;
+}
+.main .run{
+    position: fixed;
+    left: 850px;
+}
+.run{
+    width:108px;
+    height:44px;
+    border-radius:0 10px 10px 0;
+    border:0;color:white;
+    background-color: rgb(78, 108, 240);
+    font-size:17px;
+}
+ .run:hover{
+    outline: none;
+    background-color: rgb(68, 93, 207);
+}
+.main #camera{
+    position: fixed;
+    top: 282px;
+    left: 812px;
+}
+.nav-a-content td,a{
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    font-size: 13px;
+    text-decoration: none;
+    padding: 3px;
+    color: black;
+}
+.nav-a-content img{
+    border: 1px solid rgb(241, 240, 240);
+    border-radius: 10px;
+}
+.nav-a-content .express{
+    color:silver;
+}
+.nav-a span{
+    position: fixed;
+    top: 18px;
+    left: 437.5px;
+}
+.nav-a{
+    position: relative;
+    display: inline-block;
+}
+.nav-a-content{
+    display: none;
+    background-color: #ffffff;
+    width: 250px;
+    box-shadow: 0px 5px 8px 2px rgb(223,221,221);
+    border-radius: 10px;
+    position: fixed;
+    top: 47px;
+    left: 175px;
+    padding: 20px 25px;
+    /*margin: 5px -5px;
+    position: absolute;*/
+}
+.nav-a-content a:hover{
+    color: rgb(57, 98, 235);
+}
+.nav-a:hover .nav-a-content{
+    display: block;
+}
